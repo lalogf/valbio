@@ -29,6 +29,11 @@
 	font-family: museo-sans, sans-serif;
 }
 
+.museo-300{
+	font-family: museo-sans, sans-serif;
+	font-weight: 300
+}
+
 .museo-700{
 	font-family: museo-sans, sans-serif;
 	font-weight: 700
@@ -95,6 +100,16 @@ p{
 	overflow-x: hidden;
 }
 
+/*TODO
+
+.hero{
+	height:80vh;
+	background: url(assets/img/hero.png) center center no-repeat;
+	background-size: cover;
+	background-position: 0 -30vh;
+}
+*/
+
 .home{
 	height:80vh;
 	background: url(assets/img/hero.png) center center no-repeat;
@@ -114,10 +129,17 @@ p{
 }
 
 .programa {
-	background: url(assets/img/hero_programa_valbio.png) center center no-repeat;
+	background: url(assets/img/hero_programa.png) center center no-repeat;
 	background-size: cover;
-	background-position: 0% 0%;
+/*	background-position: 0% 0%;*/
 	height:80vh;
+}
+
+.involucrate{
+	background: url(assets/img/hero_involucrate.png) no-repeat;
+	background-size: cover;
+	background-position: 0 -40vh;
+	height:70vh;
 }
 
 .navbar{
@@ -183,6 +205,14 @@ p{
 
 .btn:hover{
 	color:inherit;
+}
+
+.btn-link{
+	font-weight: 500;
+}
+
+.btn-link:hover{
+	text-decoration: none
 }
 .btn-green span{
 	color:#b5bd00;
@@ -255,9 +285,9 @@ p{
 }
 
 #thumb-lg-img{
-	background: url("img/bitmap.jpg");
+	background: url("assets/img/bitmap.jpg");
 	height: 100%;
-	min-height: 19.125rem;
+	min-height: 10rem;
 	background-size: cover;
 }
 
@@ -301,7 +331,7 @@ p{
 }
 
 .thumb-box{
-	padding: 0 40px;
+	padding: 0 30px;
 }
 
 .upper{
@@ -357,6 +387,12 @@ p{
 		height: 50vh;
 		background-position: 50% 80%;
 	}
+
+	.involucrate{
+		height: 50vh;
+		background-position: 50% 80%;
+	}
+
 	.home h1{
 		font-size: 2rem;
 		letter-spacing: 0.7rem;
