@@ -83,6 +83,10 @@
   font-weight: bold;
 }
 
+.no-circle{
+  background-color: #fff;
+}
+
 /*cambiar ancho*/
 .c100:after {
   position: absolute;

@@ -18,6 +18,13 @@
 	color:#3c4145
 }
 
+.white{
+	color: #fff;
+}
+
+.montserrat{
+	font-family: 'Montserrat';
+}
 .museo{
 	font-family: museo-sans, sans-serif;
 }
@@ -63,7 +70,7 @@ ul li{
 }
 
 h1{
-	font-family: 'Helvetica';
+	font-family: 'Helvetica neue';
 	font-weight: bold
 }
 
@@ -87,6 +94,32 @@ p{
 .site{
 	overflow-x: hidden;
 }
+
+.home{
+	height:80vh;
+	background: url(assets/img/hero.png) center center no-repeat;
+	background-size: cover;
+	background-position: 0 -30vh;
+}
+
+.home h1{
+	font-size: 4rem;
+	letter-spacing: 0.5rem
+}
+
+.home span{
+	font-size: 5rem;
+	letter-spacing: 1.4rem;
+	text-align: center;
+}
+
+.programa {
+	background: url(assets/img/hero_programa_valbio.png) center center no-repeat;
+	background-size: cover;
+	background-position: 0% 0%;
+	height:80vh;
+}
+
 .navbar{
 	border-radius: 0px;
 }
@@ -104,6 +137,16 @@ p{
 
 .center-middle{
 	display:flex;
+	align-items:center;
+}
+
+.center{
+	text-align: center; 
+}
+
+.center-center{
+	display:flex;
+	justify-content:center;
 	align-items:center;
 }
 
@@ -129,7 +172,7 @@ p{
 }
 
 .btn{
-	font-size: 0.8125rem;
+	font-size: 1rem;
 	padding: 1rem 2rem;
 	border-radius: 0.125rem;
 	font-weight: 300;
@@ -188,13 +231,12 @@ p{
 }
 
 .thumbnail-sm{
-	padding-top:6.4rem;
+	padding-top:3rem;
 	padding-bottom:3rem;
 	text-align: center;
 }
 .thumbnail h2{
 	color: #939598;
-	margin-top:3.375em;
 }
 .Page-1 {
   width: 62px;
@@ -219,8 +261,13 @@ p{
 	background-size: cover;
 }
 
-.row{
-	margin-top:20px;
+.thumbnail-sm p {
+	font-size: 0.8125rem;
+	color:#434343;
+}
+.welcome-hexagon, .programa-hexagon{
+	width:auto;
+	height:70vh;
 }
 
 .trapecio-top{
@@ -241,6 +288,9 @@ p{
 	 background-color: #00c1d5;
 }
 
+.quote-box{
+	padding: 0 70px;
+}
 .quote {
 	color:white;
 	font-family: 'Montserrat';
@@ -250,16 +300,19 @@ p{
   	letter-spacing: 0.6px;
 }
 
-.center{
-	text-align: center; 
+.thumb-box{
+	padding: 0 40px;
 }
-
 
 .upper{
 	text-transform: uppercase;
 }
 
 .mt-20{
+	margin-top: 20px;
+}
+
+.mt-28{
 	margin-top: 20px;
 }
 
@@ -283,4 +336,35 @@ p{
 	margin-top: 98px;
 }
 
+.mobile{
+	display:none;
+}
 
+@media (max-width: 767px) {
+	.desktop{
+		display:none;
+	}
+
+	.mobile{
+		display:block;
+	}
+	.welcome-hexagon, .programa-hexagon{
+		width:auto;
+		height:30vh;
+	}
+
+	.home{
+		height: 50vh;
+		background-position: 50% 80%;
+	}
+	.home h1{
+		font-size: 2rem;
+		letter-spacing: 0.7rem;
+		margin-top: 4rem;
+	}
+
+	.home span{
+		font-size: 3rem;
+		letter-spacing: 1rem;
+	}
+}
