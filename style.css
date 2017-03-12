@@ -271,6 +271,27 @@ p{
     	border: solid 1px #939598;
     }
 
+    .btn-concytec-filter, .filter .inactive-filter:hover{
+    	border: solid 1px #00c1d5;
+    	color:#00587c;
+    	box-shadow: 0 2px 4px 0 rgba(208, 208, 208, 0.5);
+    	padding: 0.5rem 1rem;
+    	font-size: 0.8125rem;
+    	margin-left: 10px;
+    	background-color: #00c1d5;
+
+    }
+
+    .filter .inactive-filter{
+    	background:none;
+    	border: solid 1px #939598;
+    	color:#939598;
+    	box-shadow: 0 2px 4px 0 rgba(208, 208, 208, 0.5);
+    	padding: 0.5rem 1rem;
+    	font-size: 0.8125rem;
+    	margin-left: 10px
+    }
+
     .btn-concytec-blue{
     	background-color: #00587c;
     	color:#fff;
@@ -293,6 +314,18 @@ p{
     	padding-bottom:3rem;
     	text-align: center;
     }
+
+/*    .thumbnail-aliados{
+    	padding-top:3rem;
+    	padding-bottom:3rem;
+    	text-align: center;
+    }*/
+
+ /*   .thumbnail-aliados:hover{
+		background-color: #00587c;
+    	text-align: center;
+    }*/
+
     .thumbnail h2{
     	color: #939598;
     }
@@ -406,6 +439,45 @@ p{
     	display:none;
     }
 
+    .content{
+    	position:absolute;
+    }
+
+    .top{
+    	top:0px
+    }
+    .bottom{
+    	top: 286px;
+    	background-color:#00587c;
+    	height:100%;
+    	color:white;
+    }
+
+    .thumbnail-aliados{
+    	position:relative;
+    	transition: top 0.3s;
+    	overflow: hidden;
+    	height: 286px;
+    	width: 286px;
+    	padding: 0;
+    }
+
+    .thumbnail-aliados h2{
+    	color:white;
+    }
+
+    .thumbnail-aliados:hover{
+
+    }
+    .thumbnail-aliados:hover .top{
+    	top:-286px;
+    }
+
+    .thumbnail-aliados:hover .bottom{
+    	top:0px;
+    	padding: 0 10px;
+    }
+
     @media (max-width: 767px) {
     	.desktop{
     		display:none;
@@ -454,7 +526,7 @@ p{
     	.trapecio-bottom-programa{
     		border-bottom: 0px solid transparent;
     	}
-    	
+
     	.trapecio-bottom{
     		height: 50px;
     		border-bottom: 40px solid transparent;
