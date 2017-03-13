@@ -8,8 +8,9 @@ var ready = function (){
 	});
 	$(".navigate-bio").on('click',function(event){
 		event.preventDefault();
+		var scroll_to = "#" + ($(this).attr('name'));
 		$('html, body').animate({
-			scrollTop: $("#conservacion").offset().top
+			scrollTop: $(scroll_to).offset().top - 200
 		}, 800);
 	});
 	$(".mobile-hb").on("click",function(e){

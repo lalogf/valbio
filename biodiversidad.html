@@ -37,7 +37,14 @@
 		</div>
 	</div>
 	<div class="site">
-			<nav class="navbar navbar-fixed-top" style="margin-bottom: 0px">
+		<div class="mobile" >
+		<div class="col-xs-12"  style="background-color: #939598;position: fixed;top:12vh;z-index: 3000;padding: 10px 0;">
+			<div class="col-xs-4"><a href="" name="especies" class="center navigate-bio white"><p> Especies</p></a></div>
+			<div class="col-xs-4"><a href="" name="conservacion" class="center navigate-bio white"><p>Conservación</p></a></div>
+			<div class="col-xs-4"><a href="" name="ecosistema" class="center navigate-bio white"><p>Ecosistema</p></a></div>
+		</div>
+	</div>
+		<nav class="navbar navbar-fixed-top" style="margin-bottom: 0px">
 			<div class="container-fluid">
 				<!-- Brand and toggle get grouped for better mobile display -->
 				<div class="navbar-header">
@@ -61,8 +68,7 @@
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->
 		</nav>
-		<div class="row">
-			<div class="col-md-6 pull-left" style="background-color:#00587c;height: 100vh; padding-top: 63px;position:fixed;">
+			<div class="row col-md-6 pull-left desktop" style="background-color:#00587c;height: 100vh; padding-top: 63px;position:fixed;">
 				<div class="col-md-10 col-md-offset-1 desktop">
 					<h2 class="museo-700 green">Conoce sobre biodiversidad</h2>
 					<p class="montserrat white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -72,283 +78,239 @@
 						<p class="upper white montserrat mt-63">Aprende sobre:</p>
 						</div>
 						<div class="col-md-10 col-md-offset-1">
-							<a href="" class="navigate-bio">
+							<a href="" class="navigate-bio" name="especies">
 								<div class="col-md-4 center">
 									<div style="box-shadow: 0 1px 1px 0 #c4c4c4; border-radius: 2px;background-color: rgba(255,255,255,0.15);padding: 20px 5px">
 										<img src="assets/img/ecosistema.svg">
 										<p class="center white mt-20" style="font-size: 0.815rem">Especies</p>
 									</div>
 								</div>
-							</a>	
+							</a>
+							<a href="" class="navigate-bio" name="conservacion">	
 							<div class="col-md-4 center">
 								<div style="box-shadow: 0 1px 1px 0 #c4c4c4; border-radius: 2px;background-color: rgba(255,255,255,0.15);padding: 20px 5px">
 									<img src="assets/img/ecosistema.svg">
 									<p class="center white mt-20" style="font-size: 0.815rem">Conservación</p>
 								</div>
 							</div>
+							</a>
+							<a href="" class="navigate-bio" name="ecosistema">
 							<div class="col-md-4 center">
 								<div style="box-shadow: 0 1px 1px 0 #c4c4c4; border-radius: 2px;background-color: rgba(255,255,255,0.15);padding: 20px 5px">
 									<img src="assets/img/ecosistema.svg">
 									<p class="center white mt-20" style="font-size: 0.815rem">Ecosistemas</p>
 								</div>
 							</div>
+							</a>
 					</div>
 				</div>
-				<div class="col-md-6 pull-right" style="padding-top: 63px;overflow: scroll">
-					<section id="especies">
-						<div class="col-md-12 quote-box" style="min-height: 100vh">
-							<h2 class="museo-300 blue">Especies</h2>
-							<p>El Perú es el octavo país en el mundo en número de especies. Se calcula que existen unas 25,000 especies, de las cuales 22% son endémicas.</p>
-							<div class="col-md-4 mt-35" style="display:flex;justify-content:center;align-items:center;">
-								<div class="c100 p9 xsmall">
-									<span class="museo-700">81</span>
-									<div class="slice">
-										<div class="bar"></div>
-										<div class="fill"></div>
-									</div>
-									<div class="circle-legend">
-										<img style="margin-left:70px;z-index: 1000;position: relative;height: 50px" src="assets/img/tortuga.svg">
-										<p style="margin-top: -36px">Tortuguitas</p>
-									</div>
+
+		<div class="row mt-49 right-box">
+			<section id="especies">
+				<div class="col-md-6"></div>
+				<div class="col-md-6">
+					<div class="col-md-12 quote-box" style="min-height: 70vh">
+						<h2 class="museo-300 blue">Especies</h2>
+						<p>El Perú es el octavo país en el mundo en número de especies. Se calcula que existen unas 25,000 especies, de las cuales 22% son endémicas.</p>
+						<div class="col-md-4 mt-35" style="display:flex;justify-content:center;align-items:center;">
+							<div class="c100 p9 xsmall">
+								<span class="museo-700">81</span>
+								<div class="slice">
+									<div class="bar"></div>
+									<div class="fill"></div>
 								</div>
-							</div>
-							<div class="col-md-4 mt-35" style="display:flex;justify-content:center;align-items:center;">
-								<div class="c100 p9 xsmall">
-									<span class="museo-700">81</span>
-									<div class="slice">
-										<div class="bar"></div>
-										<div class="fill"></div>
-									</div>
-									<div class="circle-legend">
-										<img style="margin-left:70px;z-index: 1000;position: relative;height: 50px" src="assets/img/tortuga.svg">
-										<p style="margin-top: -36px">Tortuguitas</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4 mt-35" style="display:flex;justify-content:center;align-items:center;">
-								<div class="c100 p9 xsmall">
-									<span class="museo-700">81</span>
-									<div class="slice">
-										<div class="bar"></div>
-										<div class="fill"></div>
-									</div>
-									<div class="circle-legend">
-										<img style="margin-left:70px;z-index: 1000;position: relative;height: 50px" src="assets/img/tortuga.svg">
-										<p style="margin-top: -36px">Tortuguitas</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4 mt-35" style="display:flex;justify-content:center;align-items:center;">
-								<div class="c100 p9 xsmall">
-									<span class="museo-700">81</span>
-									<div class="slice">
-										<div class="bar"></div>
-										<div class="fill"></div>
-									</div>
-									<div class="circle-legend">
-										<img style="margin-left:70px;z-index: 1000;position: relative;height: 50px" src="assets/img/tortuga.svg">
-										<p style="margin-top: -36px">Tortuguitas</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4 mt-35" style="display:flex;justify-content:center;align-items:center;">
-								<div class="c100 p9 xsmall">
-									<span class="museo-700">81</span>
-									<div class="slice">
-										<div class="bar"></div>
-										<div class="fill"></div>
-									</div>
-									<div class="circle-legend">
-										<img style="margin-left:70px;z-index: 1000;position: relative;height: 50px" src="assets/img/tortuga.svg">
-										<p style="margin-top: -36px">Tortuguitas</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4 mt-35" style="display:flex;justify-content:center;align-items:center;">
-								<div class="c100 p9 xsmall">
-									<span class="museo-700">81</span>
-									<div class="slice">
-										<div class="bar"></div>
-										<div class="fill"></div>
-									</div>
-									<div class="circle-legend">
-										<img style="margin-left:70px;z-index: 1000;position: relative;height: 50px" src="assets/img/tortuga.svg">
-										<p style="margin-top: -36px">Tortuguitas</p>
-									</div>
+								<div class="circle-legend">
+									<img style="margin-left:70px;z-index: 1000;position: relative;height: 50px" src="assets/img/tortuga.svg">
+									<p style="margin-top: -36px">Tortuguitas</p>
 								</div>
 							</div>
 						</div>
-					</section>
-					<section id="conservacion">
-						<div class="col-md-12 quote-box" style="min-height: 100vh">
-							<h2 class="museo-300 blue">Especies</h2>
-							<p>El Perú es el octavo país en el mundo en número de especies. Se calcula que existen unas 25,000 especies, de las cuales 22% son endémicas.</p>
-							<div class="col-md-4 mt-35" style="display:flex;justify-content:center;align-items:center;">
-								<div class="c100 p9 xsmall">
-									<span class="museo-700">81</span>
-									<div class="slice">
-										<div class="bar"></div>
-										<div class="fill"></div>
-									</div>
-									<div class="circle-legend">
-										<img style="margin-left:70px;z-index: 1000;position: relative;height: 50px" src="assets/img/tortuga.svg">
-										<p style="margin-top: -36px">Tortuguitas</p>
-									</div>
+						<div class="col-md-4 mt-35" style="display:flex;justify-content:center;align-items:center;">
+							<div class="c100 p9 xsmall">
+								<span class="museo-700">81</span>
+								<div class="slice">
+									<div class="bar"></div>
+									<div class="fill"></div>
 								</div>
-							</div>
-							<div class="col-md-4 mt-35" style="display:flex;justify-content:center;align-items:center;">
-								<div class="c100 p9 xsmall">
-									<span class="museo-700">81</span>
-									<div class="slice">
-										<div class="bar"></div>
-										<div class="fill"></div>
-									</div>
-									<div class="circle-legend">
-										<img style="margin-left:70px;z-index: 1000;position: relative;height: 50px" src="assets/img/tortuga.svg">
-										<p style="margin-top: -36px">Tortuguitas</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4 mt-35" style="display:flex;justify-content:center;align-items:center;">
-								<div class="c100 p9 xsmall">
-									<span class="museo-700">81</span>
-									<div class="slice">
-										<div class="bar"></div>
-										<div class="fill"></div>
-									</div>
-									<div class="circle-legend">
-										<img style="margin-left:70px;z-index: 1000;position: relative;height: 50px" src="assets/img/tortuga.svg">
-										<p style="margin-top: -36px">Tortuguitas</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4 mt-35" style="display:flex;justify-content:center;align-items:center;">
-								<div class="c100 p9 xsmall">
-									<span class="museo-700">81</span>
-									<div class="slice">
-										<div class="bar"></div>
-										<div class="fill"></div>
-									</div>
-									<div class="circle-legend">
-										<img style="margin-left:70px;z-index: 1000;position: relative;height: 50px" src="assets/img/tortuga.svg">
-										<p style="margin-top: -36px">Tortuguitas</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4 mt-35" style="display:flex;justify-content:center;align-items:center;">
-								<div class="c100 p9 xsmall">
-									<span class="museo-700">81</span>
-									<div class="slice">
-										<div class="bar"></div>
-										<div class="fill"></div>
-									</div>
-									<div class="circle-legend">
-										<img style="margin-left:70px;z-index: 1000;position: relative;height: 50px" src="assets/img/tortuga.svg">
-										<p style="margin-top: -36px">Tortuguitas</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4 mt-35" style="display:flex;justify-content:center;align-items:center;">
-								<div class="c100 p9 xsmall">
-									<span class="museo-700">81</span>
-									<div class="slice">
-										<div class="bar"></div>
-										<div class="fill"></div>
-									</div>
-									<div class="circle-legend">
-										<img style="margin-left:70px;z-index: 1000;position: relative;height: 50px" src="assets/img/tortuga.svg">
-										<p style="margin-top: -36px">Tortuguitas</p>
-									</div>
+								<div class="circle-legend">
+									<img style="margin-left:70px;z-index: 1000;position: relative;height: 50px" src="assets/img/tortuga.svg">
+									<p style="margin-top: -36px">Tortuguitas</p>
 								</div>
 							</div>
 						</div>
-					</section>
-					<section id="ecosistema">
-						<div class="col-md-12 quote-box" style="min-height: 100vh">
-							<h2 class="museo-300 blue">Especies</h2>
-							<p>El Perú es el octavo país en el mundo en número de especies. Se calcula que existen unas 25,000 especies, de las cuales 22% son endémicas.</p>
-							<div class="col-md-4 mt-35" style="display:flex;justify-content:center;align-items:center;">
-								<div class="c100 p9 xsmall">
-									<span class="museo-700">81</span>
-									<div class="slice">
-										<div class="bar"></div>
-										<div class="fill"></div>
-									</div>
-									<div class="circle-legend">
-										<img style="margin-left:70px;z-index: 1000;position: relative;height: 50px" src="assets/img/tortuga.svg">
-										<p style="margin-top: -36px">Tortuguitas</p>
-									</div>
+						<div class="col-md-4 mt-35" style="display:flex;justify-content:center;align-items:center;">
+							<div class="c100 p9 xsmall">
+								<span class="museo-700">81</span>
+								<div class="slice">
+									<div class="bar"></div>
+									<div class="fill"></div>
 								</div>
-							</div>
-							<div class="col-md-4 mt-35" style="display:flex;justify-content:center;align-items:center;">
-								<div class="c100 p9 xsmall">
-									<span class="museo-700">81</span>
-									<div class="slice">
-										<div class="bar"></div>
-										<div class="fill"></div>
-									</div>
-									<div class="circle-legend">
-										<img style="margin-left:70px;z-index: 1000;position: relative;height: 50px" src="assets/img/tortuga.svg">
-										<p style="margin-top: -36px">Tortuguitas</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4 mt-35" style="display:flex;justify-content:center;align-items:center;">
-								<div class="c100 p9 xsmall">
-									<span class="museo-700">81</span>
-									<div class="slice">
-										<div class="bar"></div>
-										<div class="fill"></div>
-									</div>
-									<div class="circle-legend">
-										<img style="margin-left:70px;z-index: 1000;position: relative;height: 50px" src="assets/img/tortuga.svg">
-										<p style="margin-top: -36px">Tortuguitas</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4 mt-35" style="display:flex;justify-content:center;align-items:center;">
-								<div class="c100 p9 xsmall">
-									<span class="museo-700">81</span>
-									<div class="slice">
-										<div class="bar"></div>
-										<div class="fill"></div>
-									</div>
-									<div class="circle-legend">
-										<img style="margin-left:70px;z-index: 1000;position: relative;height: 50px" src="assets/img/tortuga.svg">
-										<p style="margin-top: -36px">Tortuguitas</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4 mt-35" style="display:flex;justify-content:center;align-items:center;">
-								<div class="c100 p9 xsmall">
-									<span class="museo-700">81</span>
-									<div class="slice">
-										<div class="bar"></div>
-										<div class="fill"></div>
-									</div>
-									<div class="circle-legend">
-										<img style="margin-left:70px;z-index: 1000;position: relative;height: 50px" src="assets/img/tortuga.svg">
-										<p style="margin-top: -36px">Tortuguitas</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4 mt-35" style="display:flex;justify-content:center;align-items:center;">
-								<div class="c100 p9 xsmall">
-									<span class="museo-700">81</span>
-									<div class="slice">
-										<div class="bar"></div>
-										<div class="fill"></div>
-									</div>
-									<div class="circle-legend">
-										<img style="margin-left:70px;z-index: 1000;position: relative;height: 50px" src="assets/img/tortuga.svg">
-										<p style="margin-top: -36px">Tortuguitas</p>
-									</div>
+								<div class="circle-legend">
+									<img style="margin-left:70px;z-index: 1000;position: relative;height: 50px" src="assets/img/tortuga.svg">
+									<p style="margin-top: -36px">Tortuguitas</p>
 								</div>
 							</div>
 						</div>
-					</section>
+						<div class="col-md-4 mt-35" style="display:flex;justify-content:center;align-items:center;">
+							<div class="c100 p9 xsmall">
+								<span class="museo-700">81</span>
+								<div class="slice">
+									<div class="bar"></div>
+									<div class="fill"></div>
+								</div>
+								<div class="circle-legend">
+									<img style="margin-left:70px;z-index: 1000;position: relative;height: 50px" src="assets/img/tortuga.svg">
+									<p style="margin-top: -36px">Tortuguitas</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 mt-35" style="display:flex;justify-content:center;align-items:center;">
+							<div class="c100 p9 xsmall">
+								<span class="museo-700">81</span>
+								<div class="slice">
+									<div class="bar"></div>
+									<div class="fill"></div>
+								</div>
+								<div class="circle-legend">
+									<img style="margin-left:70px;z-index: 1000;position: relative;height: 50px" src="assets/img/tortuga.svg">
+									<p style="margin-top: -36px">Tortuguitas</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 mt-35" style="display:flex;justify-content:center;align-items:center;">
+							<div class="c100 p9 xsmall">
+								<span class="museo-700">81</span>
+								<div class="slice">
+									<div class="bar"></div>
+									<div class="fill"></div>
+								</div>
+								<div class="circle-legend">
+									<img style="margin-left:70px;z-index: 1000;position: relative;height: 50px" src="assets/img/tortuga.svg">
+									<p style="margin-top: -36px">Tortuguitas</p>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
-			</div>
+			</section>
+
 		</div>
-	</body>
-	</html>
+		<div class="row mt-49">
+			<section id="conservacion">
+				<div class="col-md-6"></div>
+				<div class="col-md-6">
+					<div class="col-md-12 quote-box" style="min-height: 80vh">
+						<h2 class="museo-300 blue">Conservación</h2>
+						<p>El Perú es el octavo país en el mundo en número de especies. Se calcula que existen unas 25,000 especies, de las cuales 22% son endémicas.</p>
+						<div class="col-md-4 mt-35" style="display:flex;justify-content:center;align-items:center;">
+							<div class="c100 p9 xsmall">
+								<span class="museo-700">81</span>
+								<div class="slice">
+									<div class="bar"></div>
+									<div class="fill"></div>
+								</div>
+								<div class="circle-legend">
+									<img style="margin-left:70px;z-index: 1000;position: relative;height: 50px" src="assets/img/tortuga.svg">
+									<p style="margin-top: -36px">Tortuguitas</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 mt-35" style="display:flex;justify-content:center;align-items:center;">
+							<div class="c100 p9 xsmall">
+								<span class="museo-700">81</span>
+								<div class="slice">
+									<div class="bar"></div>
+									<div class="fill"></div>
+								</div>
+								<div class="circle-legend">
+									<img style="margin-left:70px;z-index: 1000;position: relative;height: 50px" src="assets/img/tortuga.svg">
+									<p style="margin-top: -36px">Tortuguitas</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 mt-35" style="display:flex;justify-content:center;align-items:center;">
+							<div class="c100 p9 xsmall">
+								<span class="museo-700">81</span>
+								<div class="slice">
+									<div class="bar"></div>
+									<div class="fill"></div>
+								</div>
+								<div class="circle-legend">
+									<img style="margin-left:70px;z-index: 1000;position: relative;height: 50px" src="assets/img/tortuga.svg">
+									<p style="margin-top: -36px">Tortuguitas</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 mt-35" style="display:flex;justify-content:center;align-items:center;">
+							<div class="c100 p9 xsmall">
+								<span class="museo-700">81</span>
+								<div class="slice">
+									<div class="bar"></div>
+									<div class="fill"></div>
+								</div>
+								<div class="circle-legend">
+									<img style="margin-left:70px;z-index: 1000;position: relative;height: 50px" src="assets/img/tortuga.svg">
+									<p style="margin-top: -36px">Tortuguitas</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 mt-35" style="display:flex;justify-content:center;align-items:center;">
+							<div class="c100 p9 xsmall">
+								<span class="museo-700">81</span>
+								<div class="slice">
+									<div class="bar"></div>
+									<div class="fill"></div>
+								</div>
+								<div class="circle-legend">
+									<img style="margin-left:70px;z-index: 1000;position: relative;height: 50px" src="assets/img/tortuga.svg">
+									<p style="margin-top: -36px">Tortuguitas</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 mt-35" style="display:flex;justify-content:center;align-items:center;">
+							<div class="c100 p9 xsmall">
+								<span class="museo-700">81</span>
+								<div class="slice">
+									<div class="bar"></div>
+									<div class="fill"></div>
+								</div>
+								<div class="circle-legend">
+									<img style="margin-left:70px;z-index: 1000;position: relative;height: 50px" src="assets/img/tortuga.svg">
+									<p style="margin-top: -36px">Tortuguitas</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<div class="row mt-49">
+			<section id="ecosistema">
+				<div class="col-md-6"></div>
+				<div class="col-md-6">
+					
+					<div class="col-md-12 quote-box" style="min-height: 80vh">
+						<h2 class="museo-300 blue">Ecosistema</h2>
+						<p>El Perú es el octavo país en el mundo en número de especies. Se calcula que existen unas 25,000 especies, de las cuales 22% son endémicas.</p>
+						<div class="col-md-4 mt-35" style="display:flex;justify-content:center;align-items:center;">
+							<div class="c100 p9 xsmall">
+								<span class="museo-700">81</span>
+								<div class="slice">
+									<div class="bar"></div>
+									<div class="fill"></div>
+								</div>
+								<div class="circle-legend">
+									<img style="margin-left:70px;z-index: 1000;position: relative;height: 50px" src="assets/img/tortuga.svg">
+									<p style="margin-top: -36px">Tortuguitas</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+
+	</div>
+</body>
+</html>
