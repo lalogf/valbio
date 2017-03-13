@@ -6,9 +6,16 @@ var ready = function (){
 			scrollTop: $("#welcome").offset().top
 		}, 800);
 	});
+	$(".navigate-bio").on('click',function(event){
+		event.preventDefault();
+		$('html, body').animate({
+			scrollTop: $("#conservacion").offset().top
+		}, 800);
+	});
 	$(".mobile-hb").on("click",function(e){
 		e.preventDefault();
-		$(".menu-mobile").toggle();
+		$(".site").toggleClass('moved-nav');
+		$(".menu-mobile").toggleClass('menu-hidden');
 	});
 
 	$(".btn-concytec-filter").on('click',function(e){
