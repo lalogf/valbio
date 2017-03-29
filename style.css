@@ -120,9 +120,10 @@ footer{
 
 	.home{
 		height:90vh;
-		background: url(assets/img/home_valbio_2.png) center center no-repeat;
+		background: url(assets/img/Hero_Programa_ValBio.png) center center no-repeat;
 		background-size: cover;
-		background-position: 0 -5vh;
+		background-position: 0 -30vh;
+        opacity: 0.9;
 	}
 
 	.home h1{
@@ -137,17 +138,19 @@ footer{
 	}
 
 	.programa {
-		background: url(assets/img/hero_programa.png) center center no-repeat;
+		background: url(assets/img/Hero_Home1.png) center center no-repeat;
 		background-size: cover;
-		/*	background-position: 0% 0%;*/
-		height:80vh;
+		background-position: 0% -30vh;
+		height:90vh;
+        opacity: 0.9;
 	}
 
 	.involucrate{
-		background: url(assets/img/hero_involucrate.png) no-repeat;
+		background: url(assets/img/Hero_Home2.png) no-repeat;
 		background-size: cover;
-		background-position: 0 -40vh;
-		height:70vh;
+		background-position: 0 -30vh;
+		height:90vh;
+        opacity: 0.9;
 	}
 
 	.navbar{
