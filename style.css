@@ -144,17 +144,20 @@ footer{
 	.programa {
 		background: url(assets/img/Hero_Home1.png) center center no-repeat;
 		background-size: cover;
-/*		background-position: 0% -30vh;*/
 		height:90vh;
-        opacity: 0.9;
 	}
 
+    .homeiniciativas {
+        background: url(assets/img/nuevo_Hero.png) center center no-repeat;
+        background-size: cover;
+        height:90vh;
+    }
+
 	.involucrate{
-		background: url(assets/img/Hero_Home2.png) no-repeat;
+		background: url(assets/img/nuevo_Hero_2.png) no-repeat;
 		background-size: cover;
-		background-position: 0 -30vh;
+		background-position: 0 -25vh;
 		height:90vh;
-        opacity: 0.7;
 	}
 
 	.navbar{
@@ -567,7 +570,8 @@ footer{
     	}
 
         .subtitle{
-            font-size: 1.5rem
+            font-size: 1.25rem;
+            text-shadow: 1px 1px #b2b2b2;
         }
 
     	@media (max-width: 768px) {
