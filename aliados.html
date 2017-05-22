@@ -22,8 +22,8 @@
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 	<script src="app.js"></script>
 </head>
-<body>
-<div class="mobile center-center menu-mobile menu-hidden">
+<body class="body">
+	<div class="mobile center-center menu-mobile menu-hidden">
 		<div class="container">
 			<div class="row">
 				<a class="pull-left" href="#"><img class="logo-img" src="assets/img/logo_concytec.png"></a>
@@ -37,7 +37,14 @@
 		</div>
 	</div>
 	<div class="site">
-		<nav class="navbar">
+		<div class="mobile" >
+			<div class="col-xs-12"  style="background-color: #939598;position: fixed;top:12vh;z-index: 3000;padding: 10px 0;">
+				<div class="col-xs-4"><a href="" name="academica" class="center navigate-bio white"><p> Instituciones Académicas y de Investigación</p></a></div>
+				<div class="col-xs-4"><a href="" name="gubernamentales" class="center navigate-bio white"><p>Instituciones Gubernamentales</p></a></div>
+				<div class="col-xs-4"><a href="" name="cooperacion" class="center navigate-bio white"><p>Instituciones de Cooperación</p></a></div>
+			</div>
+		</div>
+		<nav class="navbar navbar-fixed-top" style="margin-bottom: 0px">
 			<div class="container-fluid">
 				<!-- Brand and toggle get grouped for better mobile display -->
 				<div class="navbar-header">
@@ -53,209 +60,130 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="mt-28 desktop">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a class="upper museo-700" href="programa.html" >El programa</a></li>
-						<li><a class="upper museo-700" href="biodiversidad.html" >Biodiversidad</a></li>
-						<li><a class="upper museo-700" href="forma-parte.html" >Recursos</a></li>
-						<li><a class="upper museo-700" href="directorio-de-iniciativas.html" >Iniciativas</a></li>
+							<li><a class="upper museo-700" href="home.html" >Home</a></li>
+							<li><a class="upper museo-700" href="programa.html" >El programa</a></li>
+							<li><a class="upper museo-700" href="forma-parte.html" >Recursos</a></li>
+							<li><a class="upper museo-700" href="directorio-de-iniciativas.html" >Iniciativas</a></li>
 					</ul>
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->
 		</nav>
-		<section id="aliados">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 col-md-offset-3 center">
-						<h1 class="museo"> Aliados de la biodiversidad</h1>
-						<p class="center">Para poder seguir disfrutando de platos como nuestro cebiche, que reúne la biodiversidad del mar con la riqueza de nuestra tierra, se requiere del compromiso de todos para la preservación de nuestros recursos. Muchas instituciones y organismos públicos o privados han tomado conciencia de ello y se han convertido en nuestros principales aliados. Conócelos a continuación:</p>
-						</div>
-
-						<div class=" col-md-10 col-md-offset-1 filter mt-35 center">
-							<p style="display:inline">Buscar: </p>
-							<a href="" class="btn btn-concytec-filter" id="all">Todo</a>
-							<a href="" class="btn btn-concytec-filter inactive-filter" id="ministerios">Ministerios</a>
-							<a href="" class="btn btn-concytec-filter inactive-filter" id="universidades">Universidades</a>
-							<a href="" class="btn btn-concytec-filter inactive-filter" id="ongs">ONGs</a>
-							<a href="" class="btn btn-concytec-filter inactive-filter" id="otros">Otros</a>
+		<div class="row col-sm-6 pull-left desktop" style="background-color:#00c1d5;height: 100vh; padding-top: 63px;position:fixed;">
+			<div class="col-sm-10 col-md-offset-1 desktop">
+				<h2 class="museo-700 white">Aliados ValBio</h2>
+				<p class="montserrat white">Muchas instituciones se han convertido en nuestros principales aliados para la puesta en valor de la biodiversidad en base a la ciencia, tecnología e innovación.</p>
+				<p class="white montserrat mt-63">Encuentra información de los aliados en las siguientes categorías:</p>
+			</div>
+			<div class="col-md-10 col-md-offset-1 col-sm-12 mt-35">
+				<a href="" class="navigate-bio" name="academica">
+					<div class="col-md-4 col-sm-4 center">
+						<div style="box-shadow: 0 1px 1px 0 #c4c4c4; border-radius: 2px;background-color: rgba(255,255,255,0.8);padding: 20px 5px">
+							<p class="center darkgray mt-20" style="font-size: 0.815rem">Instituciones Académicas y de Investigación</p>
 						</div>
 					</div>
-					<div class="row mt-49">
-						<div class="col-sm-6 col-md-3 thumbnail-aliados-container ministerios">
-							<div class="thumbnail thumbnail-aliados">
-								<img  class="top content" src="assets/img/min-agricultura.png">
-								<div class="bottom content white center-center">
-									<a href="http://www.minagri.gob.pe/portal/" target="_blank">
-									<div>
-										<h3 class="museo-300 center white">Ministerio de Agricultura y Riego</h3>
-									</div>
-									</a>
-								</div>
-							</div>
+				</a>
+				<a href="" class="navigate-bio" name="gubernamentales">
+					<div class="col-md-4 col-sm-4 center">
+						<div style="box-shadow: 0 1px 1px 0 #c4c4c4; border-radius: 2px;background-color: rgba(255,255,255,0.8);padding: 20px 5px">
+							<p class="center darkgray mt-20" style="font-size: 0.815rem">Instituciones gubernamentales<br><br></p>
 						</div>
-						<div class="col-sm-6 col-md-3 thumbnail-aliados-container ministerios">
-							<div class="thumbnail thumbnail-aliados">
-								<img  class="top content" src="assets/img/min-ambiente.png">
-								<div class="bottom content white center-center">
-								<a href="http://www.minam.gob.pe/" target="_blank">
-									<div>
-										<h3 class="museo-300 center white">Ministerio del Ambiente</h3>
-									</div>	
-									</a>
-								</div>
-							</div>
+					</div>
+				</a>
+				<a href="" class="navigate-bio" name="cooperacion">	
+					<div class="col-md-4 col-sm-4 center">
+						<div style="box-shadow: 0 1px 1px 0 #c4c4c4; border-radius: 2px;background-color: rgba(255,255,255,0.8);padding: 20px 5px">
+							<p class="center darkgray mt-20" style="font-size: 0.815rem">Instituciones de cooperación<br><br></p>
 						</div>
-						<div class="col-sm-6 col-md-3 thumbnail-aliados-container otros">
-							<div class="thumbnail thumbnail-aliados">
-								<img  class="top content" src="assets/img/serfor.png">
-								<a href="http://www.serfor.gob.pe/" target="_blank">
-								<div class="bottom content white center-center">
-									<div>
-										<h3 class="museo-300 center white">Servicio Nacional Forestal y de Fauna Silvestre</h3>
-									</div>	
-								</div>
-								</a>
-							</div>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="row mt-49 mt-bs-70 right-box">
+			<section id="academica">
+				<div class="col-sm-6"></div>
+				<div class="col-sm-6">
+					<div class="col-sm-12 quote-box" style="min-height: 80vh">
+						<h2 class="museo-300 blue">Instituciones académicas y de investigación</h2>
+						<p>Se encargan de desarrollar proyectos de investigación (básica y aplicada) e innovación tecnológica, con la finalidad de generar nuevo conocimiento, así como desarrollar, adaptar y transferir tecnologías. Asimismo, desarrollan programas específicos de formación de capacidades a nivel de pre y posgrado.
+						</p>
+						<div class="col-md-4 mt-35 center">
+							<img height="200px" style="margin-left: -25px" src="assets/img/logos_aliados/unmsm.png">
+							<p class="center" style="font-size: 0.85rem;margin-top: -10px">Universidad Nacional Mayor de San Marcos</p>
 						</div>
-						<div class="col-sm-6 col-md-3 thumbnail-aliados-container otros">
-							<div class="thumbnail thumbnail-aliados">
-								<img  class="top content" src="assets/img/iiap.png">
-								<a href="http://www.iiap.org.pe/" target="_blank">
-								<div class="bottom content white center-center">
-									<div>
-										<h3 class="museo-300 center white">Insituto de Investigaciones de la Amazonia Peruana</h3>
-									</div>	
-								</div>
-								</a>
-							</div>
+						<div class="col-md-4 mt-35 center">
+							<img height="200px" style="margin-left: -25px" src="assets/img/logos_aliados/upch.png">
+							<p style="font-size: 0.85rem;margin-top: -10px">Universidad Peruana Cayetano Heredia</p>
 						</div>
-						<div class="col-sm-6 col-md-3 thumbnail-aliados-container otros">
-							<div class="thumbnail thumbnail-aliados">
-								<img  class="top content" src="assets/img/instituto-del-mar.png">
-								<a href="http://www.imarpe.gob.pe/imarpe/" target="_blank">
-								<div class="bottom content white center-center">
-									<div>
-										<h3 class="museo-300 center white">Instituto del Mar del Peru</h3>
-									</div>	
-								</div>
-								</a>
-							</div>
-						</div><div class="col-sm-6 col-md-3 thumbnail-aliados-container otros">
-							<div class="thumbnail thumbnail-aliados">
-								<img  class="top content" src="assets/img/sernanp.png">
-								<a href="http://www.sernanp.gob.pe" target="_blank">
-								<div class="bottom content white center-center">
-									<div>
-										<h3 class="museo-300 center white">Servicio Nacional de Areas Protegidas por el Estado</h3>
-									</div>	
-								</div>
-								</a>
-							</div>
-						</div><div class="col-sm-6 col-md-3 thumbnail-aliados-container otros">
-							<div class="thumbnail thumbnail-aliados">
-								<img  class="top content" src="assets/img/agrorural.png">
-								<a href="http://www.agrorural.gob.pe" target="_blank">
-								<div class="bottom content white center-center">
-									<div>
-										<h3 class="museo-300 center white">Programa de Desarrollo Productivo Agrario Rural</h3>
-									</div>	
-								</div>
-								</a>
-							</div>
+						<div class="col-md-4 mt-35 center">
+							<img height="200px" style="margin-left: -25px" src="assets/img/logos_aliados/unalm.png">
+							<p class="center" style="font-size: 0.85rem;margin-top: -10px">Universidad Nacional Agraria La Molina</p>
 						</div>
-						<div class="col-sm-6 col-md-3 thumbnail-aliados-container otros">
-							<div class="thumbnail thumbnail-aliados">
-								<img  class="top content" src="assets/img/indecopi.png">
-								<a href="https://www.indecopi.gob.pe/" target="_blank">
-								<div class="bottom content white center-center">
-									<div>
-										<h3 class="museo-300 center white">Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual</h3>
-									</div>	
-								</div>
-								</a>
-							</div>
+						<div class="col-md-4 mt-35 center">
+							<img height="200px" style="margin-left: -25px" src="assets/img/logos_aliados/ucsur.png">
+							<p class="center" style="font-size: 0.85rem;margin-top: -10px">Universidad Científica del Sur <br><br></p>
 						</div>
-					<div class="col-sm-6 col-md-3 thumbnail-aliados-container otros">
-							<div class="thumbnail thumbnail-aliados">
-								<img  class="top content" src="assets/img/proambiente.png">
-								<a href="http://www.proambiente.org.pe" target="_blank">
-								<div class="bottom content white center-center">
-									<div>
-										<h3 class="museo-300 center white">Pro Ambiente</h3>
-									</div>	
-								</div>
-								</a>
-							</div>
+						<div class="col-md-4 mt-35 center">
+							<img height="200px" style="margin-left: -25px" src="assets/img/logos_aliados/iiap.png">
+							<p class="center" style="font-size: 0.85rem;margin-top: -10px">Instituto de Investigaciones de la Amazonía Peruana</p>
 						</div>
-					<div class="col-sm-6 col-md-3 thumbnail-aliados-container universidades">
-							<div class="thumbnail thumbnail-aliados">
-								<img  class="top content" src="assets/img/unmsm.png">
-								<a href="http://www.unmsm.edu.pe/" target="_blank">
-								<div class="bottom content white center-center">
-									<div>
-										<h3 class="museo-300 center white">Universidad Nacional Mayor de San Marcos</h3>
-									</div>	
-								</div>
-								</a>
-							</div>
+						<div class="col-md-4 mt-35 center">
+							<img height="200px" style="margin-left: -25px" src="assets/img/logos_aliados/inia.png">
+							<p class="center" style="font-size: 0.85rem;margin-top: -10px">Instituto Nacional de Innovación Agraria <br><br></p>
 						</div>
-						<div class="col-sm-6 col-md-3 thumbnail-aliados-container universidades">
-							<div class="thumbnail thumbnail-aliados">
-								<img  class="top content" src="assets/img/upch.png">
-								<a href="http://www.cayetano.edu.pe/" target="_blank">
-								<div class="bottom content white center-center">
-									<div>
-										<h3 class="museo-300 center white">Universidad Peruana Cayetano Heredia</h3>
-									</div>	
-								</div>
-								</a>
-							</div>
+						<div class="col-md-4 mt-35 center">
+							<img height="200px" style="margin-left: -25px" src="assets/img/logos_aliados/imarpe.png">
+							<p class="center" style="font-size: 0.85rem;margin-top: -10px">Instituto del Mar del Perú</p>
 						</div>
-<!-- 					</div> -->
+					</div>
 				</div>
 			</section>
-<footer class="mt-98">
-						<div class="container">
-							<a href="home.html"><img class="desktop" style="height:50px" src="assets/img/logo_concytec.png"></a>
-							<div class="col-md-12 center mobile">
-								<a href="home.html"><img style="height:60px" src="assets/img/logo_concytec.png"></a>
-							</div>
-							<div class="row mt-20">
-								<div class="footer col-md-3 mobile">
-									<div class="col-md-3">
-										<a href="programa.html" class=" btn-link-footer footer-mobile">Programa</a>
-									</div>
-									<div class="col-md-3">
-										<a href="biodiversidad.html" class=" btn-link-footer footer-mobile">Biodiversidad</a>
-									</div>
-									<div class="col-md-3">
-										<a href="forma-parte.html" class=" btn-link-footer footer-mobile">Recursos</a>
-									</div>
-									<div class="col-md-3">
-										<a href="directorio-de-iniciativas.html" class=" btn-link-footer footer-mobile">Iniciativas</a>
-									</div>
-								</div>
-								<div class="footer col-md-3 desktop">
-									<ul>
-										<a href="programa.html" style="text-decoration: none"><h3>El Programa</h3></a>
-									</ul>
-								</div>
-								<div class="footer col-md-3 desktop">
-									<ul>
-										<a href="biodiversidad.html" style="text-decoration: none"><h3>Biodiversidad</h3></a>
-									</ul>
-								</div>
-								<div class="footer col-md-3 desktop">
-									<ul>
-										<a href="forma-parte.html" style="text-decoration: none"><h3>Recursos</h3></a>
-									</ul>
-								</div>
-								<div class="footer col-md-3 desktop">
-									<ul>
-										<a href="directorio-de-iniciativas.html" style="text-decoration: none"><h3>Iniciativas</h3></a>
-									</ul>
-								</div>
-							</div>
+		</div>
+		<div class="row mt-49">
+			<section id="gubernamentales">
+				<div class="col-sm-6"></div>
+				<div class="col-sm-6">
+					<div class="col-sm-12 quote-box" style="min-height: 70vh">
+						<h2 class="museo-300 blue">Instituciones Gubernamentales</h2>
+						<p>Facilitan la implementación conjunta del Programa, disponiendo instrumentos financieros y no financieros, así como el marco legal y regulatorio que faciliten la ejecución de las actividades y de los mecanismos de monitoreo y evaluación, garantizando el logro de las metas.</p>
+						<div class="col-md-4 mt-35 center">
+							<img height="200px" style="margin-left: -25px" src="assets/img/logos_aliados/concytec.png">
+							<p class="center" style="font-size: 0.85rem;margin-top: -10px">Concejo Nacional de Ciencia Tecnología e Innovación Tecnológica</p>
 						</div>
-					</footer>
+						<div class="col-md-4 mt-35 center">
+							<img height="200px" style="margin-left: -25px" src="assets/img/logos_aliados/min-ambiente.png">
+							<p class="center" style="font-size: 0.85rem;margin-top: -10px">Ministerio del Ambiente</p>
+						</div>
+												<div class="col-md-4 mt-35 center">
+							<img height="200px" style="margin-left: -25px" src="assets/img/logos_aliados/serfor.png">
+							<p class="center" style="font-size: 0.85rem;margin-top: -10px">Servicio Nacional Forestal y de Fauna Silvestre</p>
+						</div>
+												<div class="col-md-4 mt-35 center">
+							<img height="200px" style="margin-left: -25px" src="assets/img/logos_aliados/sernanp.png">
+							<p class="center" style="font-size: 0.85rem;margin-top: -10px">Servicio Nacional de Áreas Naturales Protegidas por el Estado</p>
+						</div>
+						<div class="col-md-4 mt-35 center">
+							<img height="200px" style="margin-left: -25px" src="assets/img/logos_aliados/agrorural.png">
+							<p class="center" style="font-size: 0.85rem;margin-top: -10px">Programa de Desarrollo Productivo Agrario Rural</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</div>
+		<div class="row mt-49">
+			<section id="cooperacion">
+				<div class="col-sm-6"></div>
+				<div class="col-sm-6">
+					<div class="col-sm-12 quote-box" style="min-height: 80vh">
+						<h2 class="museo-300 blue">Instituciones de Cooperación</h2>
+						<p>Se encargan de asesorar y apoyar técnica y financieramente las actividades y proyectos considerados en el programa. </p>
+						<div class="col-md-4 mt-35 center">
+							<img height="200px" style="margin-left: -25px" src="assets/img/logos_aliados/giz.png">
+							<p class="center" style="font-size: 0.85rem;margin-top: -10px">Cooperación Alemana</p>
+						</div>					
+					</div>
+				</section>
+			</div>
 		</div>
 	</body>
 	</html>

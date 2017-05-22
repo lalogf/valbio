@@ -123,41 +123,47 @@ footer{
 
 
 	.home{
-		height:90vh;
+		height:85vh;
 		background: url(assets/img/Hero_Programa_ValBio.png) center center no-repeat;
 		background-size: cover;
-/*		background-position: 0 -30vh;*/
+		background-position: 0 -35vh;
         opacity: 0.9;
 	}
 
 	.home h1{
 		font-size: 4rem;
-		letter-spacing: 0.5rem
+		letter-spacing: 0.6rem;
+        text-align: right;
+        padding-right: 20px;
 	}
 
 	.home span{
-		font-size: 5rem;
-		letter-spacing: 1.4rem;
 		text-align: center;
+        text-transform: uppercase;
+        font-size: 2rem;
+        text-shadow: 0px 0px #000;
+        letter-spacing: 0.4rem
 	}
 
 	.programa {
 		background: url(assets/img/Hero_Home1.png) center center no-repeat;
 		background-size: cover;
 		height:90vh;
+        background-position: 0 -35vh;
 	}
 
     .homeiniciativas {
         background: url(assets/img/nuevo_Hero.png) center center no-repeat;
         background-size: cover;
-        height:90vh;
+        background-position: 0 -35vh;
+        height:85vh;
     }
 
 	.involucrate{
 		background: url(assets/img/nuevo_Hero_2.png) no-repeat;
 		background-size: cover;
-		background-position: 0 -25vh;
-		height:90vh;
+		background-position: 0 -35vh;
+		height:85vh;
 	}
 
 	.navbar{
@@ -500,14 +506,28 @@ footer{
     	.mt-49{
     		margin-top: 49px;
     	}
+        .mt-56{
+            margin-top: 56px;
+        }
 
     	.mt-63{
     		margin-top: 63px;
     	}
+        .mt-70{
+            margin-top: 70px;
+        }
+        
+        .mt-77{
+            margin-top: 77px;
+        }
 
     	.mt-98{
     		margin-top: 98px;
     	}
+
+        .mt-105{
+            margin-top: 105px;
+        }
 
     	.pl-welcome{
     		padding-left: 70px
@@ -587,26 +607,25 @@ footer{
     			height:30vh;
     		}
 
-    		.home{
+    		.home, .involucrate, .homeiniciativas{
     			height: 50vh;
-    			background-position: 50% 80%;
-    		}
-
-    		.involucrate{
-    			height: 50vh;
-    			background-position: 50% 80%;
+    			background-position: 50% 50%;
     		}
 
     		.home h1{
-    			font-size: 2rem;
-    			letter-spacing: 0.7rem;
-    			margin-top: 4rem;
+    			font-size: 0.8rem;
+    			letter-spacing: 0.3rem;
     		}
 
-    		.home span{
-    			font-size: 3rem;
-    			letter-spacing: 1rem;
+    		.home span, .involucrate h1, .homeiniciativas h1{
+    			font-size: 1.6rem;
+    			letter-spacing: 0.3rem;
     		}
+
+            .home h2, .involucrate h2, .homeiniciativas h2, .programa h2 {
+                font-size: 0.7rem;
+            }
+
     		.footer-mobile{
     			display: inline
     		}
