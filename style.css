@@ -153,14 +153,14 @@ footer{
 	}
 
     .homeiniciativas {
-        background: url(assets/img/nuevo_Hero.png) center center no-repeat;
+        background: url(assets/img/Hero_Home3.jpg) center center no-repeat;
         background-size: cover;
         background-position: 0 -35vh;
         height:85vh;
     }
 
 	.involucrate{
-		background: url(assets/img/nuevo_Hero_2.png) no-repeat;
+		background: url(assets/img/hero_home2.png) no-repeat;
 		background-size: cover;
 		background-position: 0 -35vh;
 		height:85vh;
@@ -172,7 +172,7 @@ footer{
 	}
 
 	.navbar-home{
-		background:rgba(60,65,69,.68);
+		background:rgba(0,0,0,.3);
 	}
 
 	.navbar-nav>li>a {
